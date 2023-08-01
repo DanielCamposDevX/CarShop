@@ -30,8 +30,8 @@ export default function FirstBlock() {
                 <Button variant="text" size='large' color="secondary" aria-label="large text" className={''}>---</Button>
                 </div>
             </header>
-            <div className={'absolute bottom-20 md:left-24 left-0 md:flex z-20 md:justify-around justify-center items-center'}>
-                <div className={'z-20  w-1/2'}>
+            <div className={'absolute bottom-20 left-0 flex  md:justify-around justify-center items-center z-20 w-full column'}>
+                <div className={'z-20 w-1/2'}>
                     <h1 className={'text-white md:text-7xl text-xl font-black z-20 tracking-wide drop-shadow-2xl'}>LET'S GET YOU <span className={'text-red-700'}>ON THE ROAD</span></h1>
                 </div>
                 <Button variant="contained" color='primary' className='h-16 md:w-1/4 w-2/4 rounded-3xl bg-red-600 text-md font-bold hover:bg-red-500' endIcon={<ArrowForwardIcon />}>Request a quote</Button>
