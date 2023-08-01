@@ -31,3 +31,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.custom-img2{
+  background-image: url('https://static.carthrottle.com/workspace/uploads/posts/2016/01/81488419b96ac4cdca19a6dccaae3036.jpg');
+  background-size: cover;
+  background-position: center;
+}
